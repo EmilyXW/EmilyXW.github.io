@@ -1,0 +1,398 @@
+@charset "UTF-8";
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 50px;
+}
+
+
+h4{
+	font-family: 'PT Sans'; /*all PT Sans code from Google Fonts: https://fonts.google.com/*/
+	text-align: center;
+	color: #2A3550; /*all color codes from Coolors: https://coolors.co/*/
+	font-size: 10em;
+	text-shadow: 0.08em 0.1em rgba(28, 35, 53, 0.15);
+	margin-top: 20px;
+}
+
+
+h1{
+	font-family: 'PT Sans';
+	text-align: center;
+	color: #2A3550;
+	font-size: 3em;
+	text-shadow: 0.08em 0.1em rgba(28, 35, 53, 0.15);
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-top: 60px;
+	
+}
+
+h2{
+	font-family: 'PT Sans';
+	text-align: center;
+	font-size: 2.6em;
+	text-shadow: 0.08em 0.1em rgba(28, 35, 53, 0.15);
+	padding-top:40px;
+	padding-bottom:0px;
+	margin-bottom: 2px;
+	color: #2A3550;
+}
+
+.h2font{
+	font-family: 'PT Sans';
+	text-align: center;
+	font-size: 2.6em;
+	text-shadow: 0.08em 0.1em rgba(28, 35, 53, 0.15);
+	padding-top:40px;
+	padding-bottom:0px;
+	margin-bottom: 2px;
+	color: #2A3550;
+}
+
+
+h3{
+	font-family: 'PT Sans';
+	font-size: 2em;
+	text-shadow: 0.08em 0.1em rgba(42, 53, 50, 0.15);
+	color: #2A3550;
+	padding-bottom:0px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+.waves{
+	background-image:
+	/*photo courtesy of <a href="https://www.vecteezy.com/free-vector/nature">Nature Vectors by Vecteezy</a>*/
+	url("images/GoldClouds.jpg");
+	background-repeat: repeat;
+}
+
+p{
+	text-indent: 50px;
+	font-family: 'PT Sans';
+	font-size: 1.5em;
+	padding-left: .7vw;
+	padding-right: .7vw;
+	overflow: auto;
+	color: #2A3550;
+}
+.noIndent{
+	text-indent: 0px;
+}
+
+.transparentspace{
+	padding: 10vh;
+	margin: 0.6vh;
+	opacity: 0;
+}
+
+.yellow{
+	background-color: rgba(255, 231, 153, 0.8);
+	border-color: rgba(224, 157, 0, 0.7);
+}
+
+
+.blue{
+	background-color: rgba(163, 206, 245, 0.8);
+	border-color: rgba(60, 79, 118, .7);
+}
+
+
+.darkblue{
+	background-color: rgba(60, 79, 118,0.7);
+	border-color: rgba(60, 79, 118,0.9);
+}
+
+
+a{
+	color: #2A3550;
+}
+
+/* container code courtesy of w3 docs*/
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center
+} 
+
+.roundedright {
+	border-style: double double double dotted;
+	border-width: 15px 15px 15px 10px;
+	border-radius: 10px 50px 50px 10px;
+	margin-left: .01vw;
+	margin-right: 5vw;
+	margin-top:.5vw;
+	margin-bottom:.5vw;
+}
+
+.roundedleft {
+	border-style: double dotted double double;
+	border-width: 15px 10px 15px 15px;
+	border-radius: 50px 10px 10px 50px;
+	margin-left: 5vw;
+	margin-right: .01vw;
+	margin-top:.5vw;
+	margin-bottom:.5vw;
+}
+
+.rounded {
+	border-style: double;
+	border-width: 15px;
+	border-radius: 30px;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+	margin-top:0.5vw;
+	margin-bottom:0.5vw;
+}
+
+.reducebottom{
+	padding-bottom: 40px; 
+	margin-bottom: auto;
+}
+
+.floatleft {
+	float:left;
+}
+
+.floatright{
+	float:right;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.totop{
+	text-align: center;
+	color: #FFE799;
+	margin-right: .5vw;
+}
+
+/* navigation bar created with help of w3 schools*/
+ul {
+  list-style-type: none;
+  margin: 2vw;
+  overflow: hidden;
+  background-color:rgba(60, 79, 118, .8);
+  font-size: 1.2em;
+  font-family: 'PT Sans';
+  border-radius: 15px;
+  text-align: center;
+  
+}
+/* navigation bar created with help of w3 schools*/
+li {
+  float: left;
+}
+/* navigation bar created with help of w3 schools*/
+li a {
+  display: block;
+  color: #FFE799;
+  text-align: center;
+  padding: 1.5vw;
+  text-decoration: none;
+}
+/* navigation bar created with help of w3 schools*/
+li a:hover {
+  background-color: rgba(42, 53, 80, 0.8);
+}
+
+	/* box-shadow from w3 schools' code */
+img{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 30px;
+}
+
+
+.cropwide{
+	width: 100%;
+	max-width: 400px;
+	height:50vh;
+	max-height: 300px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	object-fit: cover;
+}
+
+.croptall{
+	width: 100%;
+	max-width: 200px;
+	height: 50vh;
+	max-height: 300px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	object-fit: cover;
+}
+
+.cropsquare{
+	width: 100%;
+	max-width: 300px;
+	height: 50vh;
+	max-height: 300px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	object-fit: cover;
+}
+
+.tocenter{
+	text-align: center
+}
+
+.cover{
+object-fit: contain
+}
+
+.inline{
+	display: inline
+}
+	
+/*all PT Sans code from Google Fonts: https://fonts.google.com/*/
+@font-face{
+	font-family: 'PT Sans';
+	src: url(PTSans-Regular[1].woff);
+}
+
+
+.construction{
+	color: #7D122E;
+	font-family: 'PT Sans';
+	text-align: center;
+	font-size: 5em;
+	text-shadow: 0.08em 0.1em rgba(28, 35, 53, 0.15);
+	margin-top: 20px;
+}
+
+ /*Flex containers made with help of W3 schools.*/
+.flexcloserleft{
+  display: flex;
+ /* padding-right: 3vw;
+  padding-left: 1vw; */
+  padding-bottom: 1vw;
+  flex-wrap: wrap;
+}
+.flexcloserright{
+  display: flex;
+  padding-right: 1vw;
+  padding-left: 3vw;
+  padding-bottom: 1vw;
+  flex-wrap: wrap;
+}
+
+.flex{
+	display: flex;
+}
+
+
+/*video code made with help of w3 schools*/
+.videopairedcloserright{
+	width: 100%;
+	height: 60vh;
+	margin-right: 1vw;
+	margin-left: .5vw;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+	background-color: black;
+}
+
+.noborderrounded{
+	border-style: dotted;
+	border-width: 0px;
+	border-radius: 30px;
+}
+
+
+.pdfpaired{
+	width: 100%;
+	height: 40vh;
+	margin-right: 1vw;
+	margin-left: 1vw;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+}
+
+.pdfpaired2{
+	width: 100%;
+	height: 90vh;
+	margin-right: 1vw;
+	margin-left: 1vw;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+}
+
+.pdfpairedcloserleft{
+	width: 40vw;
+	height: 40vh;
+	margin-right: 1vw;
+	margin-left: .5vw;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+}
+
+.pdfpairedcloserright{
+	width: 40vw;
+	height: 40vh;
+	margin-right: .5vw;
+	margin-left: 1vw;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+}
+
+
+
+
+.pdfcloserleft{
+	width: 98%;
+	height: 70vh;
+	margin-top: .75vw;
+	margin-bottom: .5vw;
+	margin-left: 1vw;
+	margin-right: .5vw;
+	
+	border-style: dotted;
+	border-width: 0px;
+	border-radius: 30px;
+}
+
+.pdfcloserright{
+	width: 98%;
+	height: 70vh;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+	margin-left: .5vw;
+	margin-right: 1vw;
+	
+	border-style: dotted;
+	border-width: 0px;
+	border-radius: 30px;
+}
+
+.largepdf{
+	width: 100%;
+	height: 90vh;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+	
+}
+
+.halve{
+	width: 50%;
+}
+
+.marginleft{
+	margin-left:4vw;
+}
+
+.largemarginleft{
+	margin-left:18vw;
+}
